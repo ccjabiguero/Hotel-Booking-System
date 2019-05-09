@@ -22,11 +22,12 @@ class Home extends Component {
     return (
       
       <Container>
-        <Alert variant="success">
+        <Alert variant="success" className="alertsize">
   <Alert.Heading>Welcome to Blue Hotel!</Alert.Heading>
   <p>
     Aww yeah, you successfully log-in as an admin in this Admin panel. 
-    This is created for the Case Study which is Hotel Booking System.
+    This is created for the Case Study which is Hotel Booking System. 
+    <p>Administrator can manage room types, hotel rates and booking options. </p>
   </p>
   <hr />
   <p className="mb-0">
