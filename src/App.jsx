@@ -15,7 +15,7 @@ class App extends Component {
         <div className="sidebar">
           
         
-                  <Link to={'/Home'} className="nav-link">
+                  <Link to={'/'} className="nav-link">
                   <MaterialIcon icon="home" size='50px'color='#303952'/>
                   <p className="iconlabel">Home</p>
                   </Link>
@@ -38,7 +38,7 @@ class App extends Component {
           </div>
           <div className="main">
           <Switch>
-              <Route exact path='/Home' component={ Home } />
+              <Route exact path='/' component={ Home } />
               <Route path='/Bookings' component={ RouterBookings } />
               <Route path='/Rooms' component={ RouterRooms } />
               <Route path='/Guests' component={ RouterGuests } />
